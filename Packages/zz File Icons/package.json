@@ -1,0 +1,49 @@
+{
+  "name": "st-file-icons",
+  "version": "2.0.0",
+  "description": "Sublime file icons for improved visual grepping",
+  "keywords": [
+    "file",
+    "icons",
+    "ui",
+    "sublime",
+    "text",
+    "theme"
+  ],
+  "author": "Ihor Oleksandrov <@oivva>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oivva/st-file-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oivva/st-file-icons/issues"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "color": "^0.11.3",
+    "colors": "^1.1.2",
+    "conventional-changelog": "^1.1.0",
+    "conventional-github-releaser": "^1.1.3",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-bump": "^2.4.0",
+    "gulp-changed": "^1.3.2",
+    "gulp-data": "^1.2.1",
+    "gulp-flatmap": "^1.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-recolor-svg": "^1.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-svg2png": "^2.0.2",
+    "gulp-template": "^4.0.0",
+    "gulp-watch": "^4.3.10",
+    "merge-stream": "^1.0.0",
+    "yargs": "^6.0.0"
+  }
+}

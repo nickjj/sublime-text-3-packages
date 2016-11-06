@@ -1,0 +1,54 @@
+[
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "File Icons",
+						"id": "file-icons",
+						"children":
+						[
+							{
+								"caption": "Settings",
+								"command": "edit_settings", "args":
+								{
+									"base_file": "${packages}/zz File Icons/File Icons.sublime-settings",
+									"default": "// File Icons Preferences – User\n// ================================================================\n\n// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n// ! PLEASE RESTART SUBLIME TEXT FOR THESE CHANGES TO TAKE EFFECT !\n// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n{\n\t$0\n}\n"
+								}
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Settings - Default",
+								"command": "open_file", "args":
+								{
+									"file": "${packages}/zz File Icons/File Icons.sublime-settings"
+								}
+							},
+							{
+								"caption": "Settings - User",
+								"command": "open_file", "args":
+								{
+									"file": "${packages}/User/File Icons.sublime-settings"
+								}
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Clean Up",
+								"command": "file_icons_clean_up"
+							},
+							{
+								"caption": "Environment",
+								"command": "file_icons_env"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

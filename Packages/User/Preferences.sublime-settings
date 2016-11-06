@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/Gutter Color/Boxy Ocean.gcfix.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Droid Sans Mono",
+	"font_size": 10,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		79
+	],
+	"spell_check": true,
+	"tab_size": 2,
+	"theme": "Boxy Ocean.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

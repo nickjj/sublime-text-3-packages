@@ -1,0 +1,122 @@
+👓 Version 2.0.0
+===========================================================================
+
+🐛 Bug Fixes
+---------------------------------------------------------------------------
+
+↪ add .sublime-project ext
+↪ add .sublime-theme icon
+↪ add `no-sublime-package` icon
+↪ add elixir .html.eex
+↪ add new exts for the sublime icon
+↪ alignment of the archive icon
+↪ change color of the archive icon
+↪ change the color of the archive icon to graphite
+↪ change the color of the git icon to orange
+↪ change the color of the text icon
+↪ change the way how are the supported themes detected
+↪ empty pref creation
+↪ optimize icons on build
+↪ patch all theme at once
+↪ plugin reload
+↪ plugin unloading
+↪ prettify font icon
+↪ provide black svg icons by default
+↪ st crash
+↪ use a syntax icon instead of ESLint if the ext is provided
+
+📄 Features
+---------------------------------------------------------------------------
+
+↪ add .NET icon
+↪ add ActionScript icon
+↪ add Adobe Illustrator icon
+↪ add angular icon
+↪ add apple icon
+↪ add archive icon
+↪ add babel icon
+↪ add C icon
+↪ add C# icon
+↪ add C++ icon
+↪ add clojure icon
+↪ add CoffeeScript icon
+↪ add Cold Fusion icon
+↪ add command palette items
+↪ add css icon
+↪ add D icon
+↪ add data icons
+↪ add default icons
+↪ add docker icon
+↪ add elixir icon
+↪ add erlang icon
+↪ add eslint icon
+↪ add font icon
+↪ add git icon
+↪ add go icon
+↪ add gradle icon
+↪ add graphviz icon
+↪ add groovy icon
+↪ add grunt icon
+↪ add gulp icon
+↪ add haml icon
+↪ add haskell icon
+↪ add haxe icon
+↪ add html icon
+↪ add icon activator
+↪ add icon builder
+↪ add ini icon
+↪ add java icon
+↪ add js icon
+↪ add jsp icon
+↪ add jsx icon
+↪ add julia icon
+↪ add laravel blade icon
+↪ add less icon
+↪ add license icon
+↪ add liquid icon
+↪ add lisp icon
+↪ add lsl icon
+↪ add lua icon
+↪ add markdown icon
+↪ add matlab icon
+↪ add mustache icon
+↪ add note icon
+↪ add npm icon
+↪ add ocaml icon
+↪ add option to change icon color on hover/select
+↪ add option to change the size of icons
+↪ add pdf icon
+↪ add perl icon
+↪ add photoshop icon
+↪ add php icon
+↪ add postcss icon
+↪ add preferences icon
+↪ add procfile icon
+↪ add pugjs icon
+↪ add puppet icon
+↪ add python icon
+↪ add R icon
+↪ add rails icon
+↪ add ruby icon
+↪ add rust icon
+↪ add sass icon
+↪ add scala icon
+↪ add scss icon
+↪ add settings icon
+↪ add shell icon
+↪ add sketch icon
+↪ add slim icon
+↪ add sql icon
+↪ add stata icon
+↪ add stylus icon
+↪ add sublime icon
+↪ add svg icon
+↪ add swift icon
+↪ add tcl icon
+↪ add tex icon
+↪ add textile icon
+↪ add todo icon
+↪ add twig icon
+↪ add typescript icon
+↪ add vue.js icon
+↪ add windows icon

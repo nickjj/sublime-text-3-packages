@@ -1,0 +1,17 @@
+{
+  "language_mapping": {
+    "HTML": {"lang": "html", "zeal_lang": "html"},
+    "Jinja": {"lang": "jinja2", "zeal_lang": "jinja"},
+    "JavaScript": {"lang": "javascript", "zeal_lang": "javascript"},
+    "CSS": {"lang": "css", "zeal_lang": "css"},
+    "SCSS": {"lang": "scss", "zeal_lang": "scss"},
+    "nginx": {"lang": "nginx", "zeal_lang": "nginx"},
+    "bash": {"lang": "shell", "zeal_lang": "bash"},
+    "Markdown": {"lang": "markdown", "zeal_lang": "markdown"},
+    "Python": {"lang": "python", "zeal_lang": "python"},
+    "Flask": {"lang": "python", "zeal_lang": "flask"},
+    "Ruby": {"lang": "ruby", "zeal_lang": "ruby"},
+    "Ruby on Rails": {"lang": "ruby", "zeal_lang": "rails"},
+    "Elixir": {"lang": "elixir", "zeal_lang": "elixir"}
+  }
+}

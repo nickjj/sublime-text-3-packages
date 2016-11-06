@@ -1,0 +1,41 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Bootstrap 3 Snippets",
+		"Boxy Theme",
+		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"Elixir",
+		"ERB Snippets",
+		"Gist",
+		"GitGutter",
+		"Gutter Color",
+		"HTML5",
+		"Hyperion for gettext",
+		"INI",
+		"Jinja2",
+		"MarkdownEditing",
+		"nginx",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"Smart Title Case",
+		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-shellcheck",
+		"Terminal",
+		"Zeal",
+		"zz File Icons"
+	]
+}

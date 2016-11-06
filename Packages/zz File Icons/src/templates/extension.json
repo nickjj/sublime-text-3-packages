@@ -1,0 +1,9 @@
+{
+  "extensions": [
+    <% _.each(extensions, function(ext, index) {
+    if (index === extensions.length - 1) {
+    %>"<%= ext %>"<%
+    } else { %>"<%= ext %>",
+    <% }}); %>
+  ]
+}
