@@ -9,7 +9,7 @@ from .util import log
 from .util.env import *
 from .util.tpl import PATCH_TEMPLATE
 
-PKG = 'zz File Icons'
+PKG = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 SETTINGS = 'File Icons.sublime-settings'
 SETTINGS_CHANGED = False
 THEME_EXTENSION = '.sublime-theme'
@@ -23,13 +23,15 @@ CURRENT = {
     'opacity': '',
     'opacity_on_hover': '',
     'opacity_on_select': '',
-    'size': ''
+    'size': '',
+    'aliases': ''
 }
 
 DIST = 'dist'
 PATCHES = 'zpatches'
 THEMES = '*' + THEME_EXTENSION
 SUPPORTED_THEMES = '.st-file-icons'
+ALIASES = 'languages'
 
 
 def get_settings():
@@ -38,6 +40,10 @@ def get_settings():
 
 def get_dest_path():
     return os.path.join(sublime.packages_path(), PKG, DIST, PATCHES)
+
+
+def get_aliases_path():
+    return os.path.join(sublime.packages_path(), PKG, DIST, ALIASES)
 
 
 def get_installed():
@@ -221,6 +227,25 @@ def activate():
     log.done()
 
 
+def aliases():
+    log.message('Checking aliases')
+
+    aliases = get_aliases_path()
+
+    for alias in os.listdir(aliases):
+        path = os.path.join(aliases, alias)
+
+        if os.path.isfile(path):
+            name, ext = os.path.splitext(path)
+
+            if CURRENT['aliases'] and ext == '.disabled-tmLanguage':
+                os.rename(path, path.replace('.disabled-', '.'))
+
+            if not CURRENT['aliases'] and ext == '.tmLanguage':
+                os.rename(path, path.replace('.tmLanguage',
+                                             '.disabled-tmLanguage'))
+
+
 def clear_patches(patches):
     log.message('Clearing patches')
 
@@ -272,6 +297,7 @@ def on_change():
         if SETTINGS_CHANGED:
             log.message('Current settings')
             log.value(CURRENT)
+            aliases()
             activate()
             SETTINGS_CHANGED = False
         else:
@@ -311,6 +337,7 @@ class FileIconsCleanUpCommand(sublime_plugin.WindowCommand):
 
 def plugin_loaded():
     init()
+    aliases()
     activate()
     add_listener()
 

@@ -102,7 +102,7 @@ gulp.task('build:settings', function() {
 
       if (iconAliases) {
         iconSettings.add(iconAliases.map(function(alias) {
-          var lang = gulp.src('./src/templates/language.xml')
+          return gulp.src('./src/templates/language.xml')
             .pipe($.data(function() {
               return {
                 alias: alias.name,
@@ -117,21 +117,6 @@ gulp.task('build:settings', function() {
               extname: '.tmLanguage'
             }))
             .pipe(gulp.dest('./dist/languages'));
-
-          var ext = gulp.src('./src/templates/extension.json')
-            .pipe($.data(function() {
-              return {
-                extensions: alias.extensions
-              };
-            }))
-            .pipe($.template())
-            .pipe($.rename({
-              basename: alias.name,
-              extname: '.sublime-settings'
-            }))
-            .pipe(gulp.dest('./dist/extensions'));
-
-          return merge(lang, ext);
         }));
       }
 

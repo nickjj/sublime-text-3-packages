@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 DEBUG = False
-WARN = 'Please restart Sulbime Text for the applied icons to take effect ...'
+WARN = 'Please restart Sublime Text for the applied icons to take effect ...'
 
 
 def log(*args):

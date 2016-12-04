@@ -1,6 +1,6 @@
 {
-  "name": "st-file-icons",
-  "version": "2.0.0",
+  "name": "sublime-file-icons",
+  "version": "2.2.0",
   "description": "Sublime file icons for improved visual grepping",
   "keywords": [
     "file",
@@ -14,10 +14,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oivva/st-file-icons.git"
+    "url": "https://github.com/oivva/sublime-file-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/oivva/st-file-icons/issues"
+    "url": "https://github.com/oivva/sublime-file-icons/issues"
   },
   "main": "gulpfile.js",
   "scripts": {

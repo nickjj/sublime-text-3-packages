@@ -1,7 +1,7 @@
 <!-- BEFORE REPORTING A NEW ISSUE (FOR BUGS) -->
 
 <!--
-0. Look at https://github.com/oivva/st-file-icons#known-issues
+0. Look at https://github.com/oivva/sublime-file-icons#known-issues
 
 1. Try to restart Sublime Text
 

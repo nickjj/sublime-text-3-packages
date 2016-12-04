@@ -1,0 +1,37 @@
+👓 Version 2.2.0
+===========================================================================
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+⚠ Breaking Changes in 3.0.0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Starting 3.0.0 `zz File Icons` will be renamed to `A File Icon`. I've found
+the way how to fix/implement two annoying issues:
+
+- Resolve conflicts with unsupported themes. So the right icons will be used
+  after fixing this.
+
+- Add possibility to use package icons if they missing in supported themes.
+  If the theme developer doesn't want to add more icons, package will
+  replace missing icons with provided by itself.
+
+I have no plans to add new icons in 3.0.0, it will bring only the new way
+of applying them. I apologize for any inconvenience caused.
+
+🐛 Bug Fixes
+---------------------------------------------------------------------------
+
+↪ Add icons for *lintrc.* files
+↪ Add the docker icon for `docker-compose.yml`
+↪ Add the gear icon for .env files
+↪ Make nsis icon much crisper
+
+📄 Features
+---------------------------------------------------------------------------
+
+↪ Add option to disable syntax aliases
+
+👍 Many thanks to
+---------------------------------------------------------------------------
+
+@idleberg for better nsis icon 😉

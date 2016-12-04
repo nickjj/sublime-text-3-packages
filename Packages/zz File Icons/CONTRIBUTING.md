@@ -1,12 +1,12 @@
 ## Found an Issue?
 
-If you have any problems, please search for [a similar issue] first, before creating [a new one](https://github.com/oivva/st-file-icons/issues) (don't forget to **follow the issue template**).
+If you have any problems, please search for [a similar issue] first, before creating [a new one](https://github.com/oivva/sublime-file-icons/issues) (don't forget to **follow the issue template**).
 
-> Also, check the list of [known issues](https://github.com/oivva/st-file-icons#known-issues) before doing so.
+> Also, check the list of [known issues](https://github.com/oivva/sublime-file-icons#known-issues) before doing so.
 
 Don't forget to provide your environment details:
 
-[![Environment](https://github.com/oivva/st-file-icons/blob/dev/media/env.gif)](https://github.com/oivva/st-file-icons/blob/dev/media/env.gif)
+[![Environment](https://github.com/oivva/sublime-file-icons/blob/dev/media/env.gif)](https://github.com/oivva/sublime-file-icons/blob/dev/media/env.gif)
 
 ## Git Commit Guidelines
 
@@ -37,12 +37,12 @@ Build process consists of:
 
 If you want to add a new icon, please follow these steps:
 
-1. Try to find an icon in one of [these resources](https://github.com/oivva/st-file-icons#icons). We always try to be pretty similar to [Atom File Icons](https://github.com/DanBrooker/file-icons) package. If you are unable to find anything – add your own.
+1. Try to find an icon in one of [these resources](https://github.com/oivva/sublime-file-icons#icons). We always try to be pretty similar to [Atom File Icons](https://github.com/DanBrooker/file-icons) package. If you are unable to find anything – add your own.
 2. Add an example file that shows this icon to the `test` folder.
 3. Provide the icon in SVG format and put it in the `src/assets` directory.
-4. Add `icon` settings to the [src/icons.json](https://github.com/oivva/st-file-icons/blob/dev/src/icons.json) file.
+4. Add `icon` settings to the [src/icons.json](https://github.com/oivva/sublime-file-icons/blob/dev/src/icons.json) file.
 5. Build and check if the icon looks good.
-6. It's recommended to add a link to the package which provides the syntax (see [PACKAGES.md](https://github.com/oivva/st-file-icons/blob/dev/PACKAGES.md))
+6. It's recommended to add a link to the package which provides the syntax (see [PACKAGES.md](https://github.com/oivva/sublime-file-icons/blob/dev/PACKAGES.md))
 
 > All that you need to add are the SVG icon, its settings and the example file(s).
 
@@ -60,7 +60,7 @@ Requirements:
 
 Example:
 
-[![ActionScript Icon](https://cdn.rawgit.com/oivva/st-file-icons/dev/src/assets/file_type_actionscript.svg)](https://github.com/oivva/st-file-icons/blob/dev/src/assets/file_type_actionscript.svg)
+[![ActionScript Icon](https://cdn.rawgit.com/oivva/sublime-file-icons/dev/src/assets/file_type_actionscript.svg)](https://github.com/oivva/sublime-file-icons/blob/dev/src/assets/file_type_actionscript.svg)
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
@@ -103,8 +103,8 @@ For example:
       "name": "Shell Script (Git)",
       // `extensions` should be provided for aliases only
       "extensions": [
-        "gitignore",
-        "gitkeep"
+        ".gitignore",
+        ".gitkeep"
       ],
       // It's the scope of the syntax which this alias inherits
       // `base` should be provided for aliases only
@@ -117,7 +117,6 @@ For example:
 
 These settings will create three files after running the build: 
 
-* `dist\extensions\Shell Script (Git).sublime-settings`
 * `dist\languages\Shell Script (Git).tmLanguage`
 * `dist\preferences\file_type_git.tmPreferences`
 

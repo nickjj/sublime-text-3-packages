@@ -7,8 +7,8 @@
     <array>
       <% _.each(extensions, function(ext, index) {
       if (index == extensions.length - 1) {
-      %><string>.<%= ext %></string><%
-      } else { %><string>.<%= ext %></string>
+      %><string><%= ext %></string><%
+      } else { %><string><%= ext %></string>
       <% }}); %>
     </array>
     <key>patterns</key>
@@ -19,6 +19,6 @@
       </dict>
     </array>
     <key>scopeName</key>
-    <string><%= base %>, <%= scope %></string>
+    <string><%= scope %></string>
   </dict>
 </plist>

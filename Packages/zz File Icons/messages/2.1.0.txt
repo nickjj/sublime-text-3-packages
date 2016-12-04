@@ -1,0 +1,49 @@
+👓 Version 2.1.0
+===========================================================================
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+⚠ Breaking Changes in 3.0.0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Starting 3.0.0 `zz File Icons` will be renamed to `A File Icon`. I've found
+the way how to fix/implement two annoying issues:
+
+- Resolve conflicts with unsupported themes. So the right icons will be used
+  after fixing this.
+
+- Add possibility to use package icons if they missing in supported themes.
+  If the theme developer doesn't want to add more icons, package will
+  replace missing icons with provided by itself.
+
+I have no plans to add new icons in 3.0.0, it will bring only the new way
+of applying them. I apologize for any inconvenience caused.
+
+🐛 Bug Fixes
+---------------------------------------------------------------------------
+
+↪ Add the archive icon for *.saz
+↪ Add the font icon for woff2
+↪ Add the gulp icon for gulpfile.babel.js & gulpfile.coffee
+↪ Add the postcss icon for config files
+↪ Add the ruby icon for rvm and rspec
+↪ Get package name on the fly
+↪ Make .stylelintrc icon single colored
+↪ Use ESLint icon for .eslintignore
+
+📄 Features
+---------------------------------------------------------------------------
+
+↪ Add a config icon
+↪ Add a csv icon
+↪ Add a lock icon
+↪ Add a log icon
+↪ Add a nginx icon
+↪ Add a nsis icon
+↪ Add a plist icon
+↪ Add a webpack icon
+↪ Add an editorconfig icon
+↪ Add an icon for circle ci
+↪ Add an icon for composer
+↪ Add an icon for NodeJS
+↪ Add an icon for stylelint
+↪ Add an yarn.lock icon

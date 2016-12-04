@@ -1,3 +1,5 @@
+> **Starting 3.0.0** `zz File Icons` will be renamed to `A File Icon`. I've found the way how to fix/implement [#23](https://github.com/oivva/sublime-file-icons/issues/23), [#24](https://github.com/oivva/sublime-file-icons/issues/24). I have no plans to add new icons in 3.0.0, it will bring only the new way of applying them. I apologize for any inconvenience caused.
+
 # ![Sublime File Icons][img-logo]
 
 [![Release][img-release]][release]
@@ -48,7 +50,12 @@ You can change the color, opacity level and size of the icons by modifying your 
 
 ### Themes
 
-I'm happy to announce that [Boxy Theme][boxy-theme] and [Material Theme][material-theme] will support this package in their next releases. So you'll be able to choose what icons you want to use – provided by the theme or provided by the package.
+If your theme supports `zz File Icons` you can choose what icons you want to use – provided by the theme (by default) or provided by the package. Otherwise this package adds its own icons only.
+
+Themes that already have support of `zz File Icons` include:
+
+* [Boxy Theme][boxy-theme]
+* [Material Theme][material-theme]
 
 ### Troubleshooting
 
@@ -180,7 +187,7 @@ I've put a lot of time and effort into making **Sublime File Icons** awesome. If
 <!-- Resources -->
 
 [atom-file-icons]: https://github.com/DanBrooker/file-icons
-[boxy-theme]: https://github.com/oivva/st-boxy
+[boxy-theme]: https://github.com/oivva/sublime-boxy
 [devicons]: http://vorillaz.github.io/devicons/#/main
 [font-awesome]: http://fontawesome.io/
 [font-mfizz]: http://fizzed.com/oss/font-mfizz
@@ -190,30 +197,30 @@ I've put a lot of time and effort into making **Sublime File Icons** awesome. If
 
 <!-- Misc -->
 
-[aliases]: https://github.com/oivva/st-file-icons/tree/dev/dist/languages
-[bring-support]: https://github.com/oivva/st-file-icons#bring-support-to-your-theme
-[changelog]: https://github.com/oivva/st-file-icons/blob/dev/CHANGELOG.md
+[aliases]: https://github.com/oivva/sublime-file-icons/tree/dev/dist/languages
+[bring-support]: https://github.com/oivva/sublime-file-icons#bring-support-to-your-theme
+[changelog]: https://github.com/oivva/sublime-file-icons/blob/dev/CHANGELOG.md
 [coming-soon]: https://github.com/wbond/package_control_channel/pull/5852
-[contributing]: https://github.com/oivva/st-file-icons/blob/dev/.github/CONTRIBUTING.md
-[customization]: https://github.com/oivva/st-file-icons#customization
+[contributing]: https://github.com/oivva/sublime-file-icons/blob/dev/CONTRIBUTING.md
+[customization]: https://github.com/oivva/sublime-file-icons#customization
 [details]: https://forum.sublimetext.com/t/sublime-text-3-file-icons-in-sidebar/21134/4
 [downloads]: https://packagecontrol.io/packages/zz%20File%20Icons
 [getting-started]: https://youtu.be/bTIOL-5SxHY 'Watch "Getting Started with File Icons" on YouTube'
-[icons]: https://github.com/oivva/st-file-icons/tree/dev/dist/zpatches/icons
-[known-issues]: https://github.com/oivva/st-file-icons#known-issues
-[migration]: https://github.com/oivva/st-file-icons/blob/dev/MIGRATION.md
-[new-issue]: https://github.com/oivva/st-file-icons/issues/new
-[packages]: https://github.com/oivva/st-file-icons/blob/dev/PACKAGES.md
+[icons]: https://github.com/oivva/sublime-file-icons/tree/dev/dist/zpatches/icons
+[known-issues]: https://github.com/oivva/sublime-file-icons#known-issues
+[migration]: https://github.com/oivva/sublime-file-icons/blob/dev/MIGRATION.md
+[new-issue]: https://github.com/oivva/sublime-file-icons/issues/new
+[packages]: https://github.com/oivva/sublime-file-icons/blob/dev/PACKAGES.md
 [patreon]: https://www.patreon.com/oivva
-[release]: https://github.com/oivva/st-file-icons/releases
-[template]: https://github.com/oivva/st-file-icons/blob/dev/util/tpl.py
-[issues]: https://github.com/oivva/st-file-icons/issues
+[release]: https://github.com/oivva/sublime-file-icons/releases
+[template]: https://github.com/oivva/sublime-file-icons/blob/dev/util/tpl.py
+[issues]: https://github.com/oivva/sublime-file-icons/issues
 
 <!-- Assets -->
 
 [img-downloads]: https://img.shields.io/packagecontrol/dt/zz%20File%20Icons.svg?maxAge=3600&style=flat-square
-[img-getting-started]: https://github.com/oivva/st-file-icons/blob/dev/media/getting-started.png
-[img-logo]: https://github.com/oivva/st-file-icons/blob/dev/media/logo.png
+[img-getting-started]: https://raw.githubusercontent.com/oivva/sublime-file-icons/dev/media/getting-started.png
+[img-logo]: https://raw.githubusercontent.com/oivva/sublime-file-icons/dev/media/logo.png
 [img-patreon]: https://img.shields.io/badge/donate-patreon-orange.svg?maxAge=2592000&style=flat-square
-[img-release]: https://img.shields.io/github/release/oivva/st-file-icons.svg?maxAge=86400&style=flat-square
-[img-palette]: https://github.com/oivva/st-file-icons/blob/dev/media/palette.png
+[img-release]: https://img.shields.io/github/release/oivva/sublime-file-icons.svg?maxAge=86400&style=flat-square
+[img-palette]: https://raw.githubusercontent.com/oivva/sublime-file-icons/dev/media/palette.png

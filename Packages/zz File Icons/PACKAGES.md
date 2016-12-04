@@ -13,13 +13,25 @@ This file contains a list of possible packages those you may need to install to 
 - [CFML](https://packagecontrol.io/packages/CFML)
 - [ColdFusion](https://github.com/SublimeText/ColdFusion/tree/st3-readme)
 
+## CSV
+
+- [Advanced CSV](https://packagecontrol.io/packages/Advanced%20CSV)
+
 ## Docker
 
 - [Dockerfile Syntax Highlighting](https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting)
 
+## EditorConfig
+
+- [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
+
 ## Elixir
 
 - [Elixir](https://packagecontrol.io/packages/Elixir)
+
+## Env
+
+- [DotENV](https://packagecontrol.io/packages/DotENV)
 
 ## Git
 
@@ -59,13 +71,26 @@ This file contains a list of possible packages those you may need to install to 
 - [HTML Mustache](https://packagecontrol.io/packages/HTML%20Mustache)
 - [Handlebars](https://packagecontrol.io/packages/Handlebars)
 
+## Nginx
+
+- [Nginx](https://packagecontrol.io/packages/nginx)
+
 ## Notes
 
 - [PlainNotes](https://packagecontrol.io/packages/PlainNotes)
 
+## NSIS
+
+- [NSIS](https://packagecontrol.io/packages/NSIS)
+- [BridleNSIS](https://packagecontrol.io/packages/BridleNSIS)
+
 ## PHP
 
 - [Laravel Blade Highlighter](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
+
+## Plist
+
+- [plist](https://packagecontrol.io/packages/plist)
 
 ## PostCSS
 
@@ -89,6 +114,7 @@ This file contains a list of possible packages those you may need to install to 
 
 - [ApacheConf](https://packagecontrol.io/packages/ApacheConf.tmLanguage)
 - [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
+- [INI](https://packagecontrol.io/packages/INI)
 
 ## Shell
 
