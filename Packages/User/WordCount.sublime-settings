@@ -1,0 +1,6 @@
+{
+  "enable_readtime": true,
+
+  "whitelist_syntaxes": ["Plain text", "Markdown"],
+  "blacklist_syntaxes": [],
+}
